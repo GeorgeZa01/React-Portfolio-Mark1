@@ -28,7 +28,7 @@ const Hero = () => {
         <div className="hero-image-area">
           <div className="hero-image-container animate-pulse-slow">
             <img
-              src="src/assets/profile.jpg"
+              src="../assets/profile.jpg"
               alt="Jemaile Mohamed Profile"
               className="hero-image"
             />
