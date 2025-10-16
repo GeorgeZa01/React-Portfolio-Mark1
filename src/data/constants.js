@@ -101,7 +101,7 @@ export const EXPERIENCE_DATA = [
   {
     title: 'Technical and Program Director',
     company: 'D & C Consultants SA, Cape Town',
-    duration: '2023 - Present',
+    duration: 'June 2025 - Present',
     description: [
       "Contributed to the organization’s  Digital Transformation  initiatives, specifically focusing on building and developing systems for social impact programs.",
       "Aided in the technical development of projects related to  4IR skills training  (Fourth Industrial Revolution) and  youth employment  (e.g., EVOLVE Nation or SkillBridge initiatives).",
