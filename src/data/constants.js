@@ -93,7 +93,7 @@ export const PROJECTS = [
     stack: 'Python, Raspberry Pi, MySQL, PHP, Javascript',
     liveLink: 'https://placeholder.com',
     githubLink: 'https://github.com/surur-samaai/iliso_digital_tracking_system/tree/main',
-    image: 'https://surur-portfolio.netlify.app/images/iliso.png',
+    image: 'https://surur-portfolio.netlify.app/images/iliso-dark.jpg',
   },
 ];
 
