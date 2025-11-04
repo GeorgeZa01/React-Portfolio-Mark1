@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NAV_ITEMS } from './data/constants';
 import NavBar from './components/NavBar';
+import Seo from './components/Seo';
 import Hero from './components/Hero';
 import About from './components/About';
 import Experience from './components/Experience';
@@ -57,6 +58,7 @@ const App = () => {
 
   return (
     <div className={`app-wrapper ${isDarkMode ? 'dark-mode' : ''}`}>
+      <Seo />
       <NavBar activeSection={activeSection} isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
       <main>
         <Hero />

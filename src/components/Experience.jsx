@@ -1,5 +1,6 @@
 import React from 'react';
 import { Clock } from 'lucide-react';
+import Seo from './Seo';
 import { EXPERIENCE_DATA } from '../data/constants';
 
 const SectionTitle = ({ title }) => (
@@ -31,6 +32,11 @@ const ExperienceCard = ({ title, company, duration, description }) => (
 const Experience = () => {
   return (
     <section id="experience" className="section-padding section-dark">
+      <Seo
+        title="Experience — Jemaile Mohamed"
+        description="Professional experience and roles held by Jemaile Mohamed, highlighting responsibilities and accomplishments." 
+        url="https://jm.dev/experience"
+      />
       <div className="container section-max-width">
         <SectionTitle title="Experience" />
         <div className="section-content-list">

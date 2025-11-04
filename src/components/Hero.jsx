@@ -1,9 +1,16 @@
 import React from 'react';
 import { Zap, Download } from 'lucide-react';
+import Seo from './Seo';
 
 const Hero = () => {
   return (
     <section id="hero" className="hero-section">
+      <Seo
+        title="Home — Jemaile Mohamed"
+        description="Jemaile Mohamed — full-stack web developer from Cape Town building responsive, accessible web apps with React and Node.js."
+        url="https://jm.dev"
+        image="https://jm.dev/og-image.png"
+      />
       <div className="container hero-content">
         <div className="hero-text-area">
           <p className="hero-greeting">

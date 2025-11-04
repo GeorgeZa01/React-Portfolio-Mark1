@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm } from '@formspree/react';
 import { Linkedin, Github, Mail, User } from 'lucide-react';
+import Seo from './Seo';
 
 const SectionTitle = ({ title }) => (
   <div className="section-title-wrapper">
@@ -31,6 +32,11 @@ const Contact = () => {
   if (state.succeeded) {
     return (
       <section id="contact" className="section-padding section-dark">
+        <Seo
+          title="Contact — Jemaile Mohamed"
+          description="Get in touch with Jemaile Mohamed for collaboration, hiring or project inquiries."
+          url="https://jm.dev/contact"
+        />
         <div className="container section-max-width">
           <SectionTitle title="Contact Me" />
           <div className="contact-grid">
@@ -86,6 +92,11 @@ const Contact = () => {
 
   return (
     <section id="contact" className="section-padding section-dark">
+      <Seo
+        title="Contact — Jemaile Mohamed"
+        description="Get in touch with Jemaile Mohamed for collaboration, hiring or project inquiries."
+        url="https://jm.dev/contact"
+      />
       <div className="container section-max-width">
         <SectionTitle title="Contact Me" />
         <div className="contact-grid">

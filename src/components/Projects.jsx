@@ -1,5 +1,6 @@
 import React from 'react';
 import { Globe, Github } from 'lucide-react';
+import Seo from './Seo';
 import { PROJECTS } from '../data/constants';
 
 const SectionTitle = ({ title }) => (
@@ -49,6 +50,11 @@ const ProjectCard = ({ title, description, stack, liveLink, githubLink, image })
 const Projects = () => {
   return (
     <section id="projects" className="section-padding section-light">
+      <Seo
+        title="Projects — Jemaile Mohamed"
+        description="Selected projects by Jemaile Mohamed showcasing full-stack, React and Node.js work."
+        url="https://jm.dev/projects"
+      />
       <div className="container section-max-width">
         <SectionTitle title="My Projects" />
         <div className="project-grid">

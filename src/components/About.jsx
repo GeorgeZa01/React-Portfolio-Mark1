@@ -1,5 +1,6 @@
 import React from 'react';
-import { Code } from 'lucide-react';
+import { Briefcase, Folder } from 'lucide-react';
+import Seo from './Seo';
 
 const SectionTitle = ({ title }) => (
   <div className="section-title-wrapper">
@@ -13,6 +14,12 @@ const SectionTitle = ({ title }) => (
 const About = () => {
   return (
     <section id="about" className="section-padding section-light">
+      <Seo
+        title="About — Jemaile Mohamed"
+        description="About Jemaile Mohamed — full-stack developer focused on building performant and accessible web experiences."
+        url="https://jm.dev/about"
+        image="https://jm.dev/og-image.png"
+      />
       <div className="container section-max-width">
         <SectionTitle title="About Me" />
         <div className="text-content-area text-lg">
@@ -22,14 +29,7 @@ const About = () => {
           <p>
             I've built full-stack e-commerce platforms, data dashboards, and modern business websites using JavaScript, Node.js, and MySQL. I thrive in collaborative spaces, love a good challenge, and stay committed to continuous learning and empowering others through tech.
           </p>
-          <div className="about-focus-box">
-            <h3 className="about-focus-title">
-              <Code className="icon-small" /> Focus & Mission
-            </h3>
-            <p>
-              My focus is on delivering efficient and scalable solutions, bridging the gap between innovative design and robust backend performance. I am currently seeking opportunities to apply my full-stack skills in a challenging and growth-oriented environment.
-            </p>
-          </div>
+
         </div>
       </div>
     </section>
