@@ -10,7 +10,7 @@ const Seo = ({
 }) => {
   const siteTitle = title || 'Jemaile Mohamed — Full‑stack Developer';
   const siteDescription = description || 'Full‑stack web developer from Cape Town building responsive, accessible and performant web apps using React, Node.js and modern web tooling.';
-  const siteUrl = url || 'https://yourdomain.com';
+  const siteUrl = url || 'https://jemaile-portfolio.netlify.app';
   const siteImage = image || `${siteUrl}/og-image.png`;
   const siteKeywords = keywords || 'full-stack, web developer, react, node, javascript, jemaile mohamed';
 
@@ -36,6 +36,24 @@ const Seo = ({
       <meta name="twitter:image" content={siteImage} />
 
       <meta name="theme-color" content="#0ea5a4" />
+      {/* JSON-LD structured data for better indexing */}
+      <script type="application/ld+json">{
+        `{
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Jemaile Mohamed",
+          "url": "${siteUrl}",
+          "sameAs": [
+            "https://github.com/GeorgeZa01",
+            "https://www.linkedin.com/in/jemaile-mohamed"
+          ],
+          "jobTitle": "Full‑stack Web Developer",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Jemaile Mohamed"
+          }
+        }`
+      }</script>
     </Helmet>
   );
 };

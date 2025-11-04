@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://jemaile-portfolio.netlify.app/sitemap.xml
