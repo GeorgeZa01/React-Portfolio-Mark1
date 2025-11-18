@@ -109,7 +109,7 @@ export const EXPERIENCE_DATA = [
     ],
   },
   {
-    title: 'Junior Devloper Intern',
+    title: 'Junior Developer Intern',
     company: 'Life Choices Studio, Cape Town',
     duration: 'Apr 2025 - Jun 2025',
     description: [
