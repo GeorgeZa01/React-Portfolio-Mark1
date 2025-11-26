@@ -63,7 +63,7 @@ const NavBar = ({ activeSection, isDarkMode, toggleDarkMode }) => {
             scrollToSection('hero');
           }}
         >
-          JM<span className="navbar-logo-alt">.dev</span>
+          JM<span className="navbar-logo-alt">dev</span>
         </a>
         
         <div className="nav-links-desktop">
