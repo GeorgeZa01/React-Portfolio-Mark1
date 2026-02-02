@@ -80,6 +80,14 @@ export const PROJECTS = [
     image: 'https://georgeza01.github.io/Project-Screenshots/tastesbyt.png', // Updated image URL for TastesByT projectg',
   },
   {
+    title: 'Ticketing System',
+    description: 'A full-stack ticketing system with user authentication, ticket creation, and comment management. ',
+    stack: 'Typescript, Vite, Tailwind css, React Router V6, Loveable Cloud with PostgreSQL, Supabase Auth',
+    liveLink: 'https://jmdev-ticketing.lovable.app/',
+    githubLink: 'https://github.com/GeorgeZa01/jmdev-task-tracker',
+    image: 'https://github.com/GeorgeZa01/Project-Screenshots/blob/main/ticketing.png?raw=true',
+  },
+  {
     title: 'Tower Block Game',
     description: 'A frontend interactive game showcasing logic implementation and DOM manipulation skills. It provides an engaging user experience entirely within the browser.',
     stack: 'Pure JavaScript, HTML/CSS',
@@ -99,15 +107,15 @@ export const PROJECTS = [
 
 export const EXPERIENCE_DATA = [
   {
-    title: 'Technical and Program Director',
-    company: 'D & C Consultants SA, Cape Town',
-    duration: 'June 2025 - Present',
-    description: [
-      "Contributed to the organization’s  Digital Transformation  initiatives, specifically focusing on building and developing systems for social impact programs.",
-      "Aided in the technical development of projects related to  4IR skills training  (Fourth Industrial Revolution) and  youth employment  (e.g., EVOLVE Nation or SkillBridge initiatives).",
-      "Worked in an environment powered by  Google Cloud , applying modern development practices to ensure reliable and scalable community platforms and digital services.",
-    ],
-  },
+  title: 'Lead Full-Stack Developer & Technical Strategist', // Or your specific title
+  company: 'JMdev, Cape Town',
+  duration: 'January 2024 - Present', // Adjust dates as needed
+  description: [
+    "Spearheaded the end-to-end development of bespoke digital solutions, focusing on scalable architecture and high-performance web applications for diverse industry clients.",
+    "Led technical discovery and implementation phases for complex integrations, ensuring seamless data flow and enhanced user experiences across proprietary platforms.",
+    "Optimized internal DevOps workflows and deployment pipelines, leveraging modern frameworks to reduce time-to-market for critical software updates.",
+  ],
+},
   {
     title: 'Junior Developer Intern',
     company: 'Life Choices Studio, Cape Town',
@@ -141,6 +149,12 @@ export const EXPERIENCE_DATA = [
 ];
 
 export const EDUCATION_DATA = [
+  {
+    institution: 'AWS Skillbuilder',
+    degree: 'Cloud Practitioner Essentials',
+    duration: 'Dec 2025 - Present',
+    details: 'Currently Upskilling myself with AWS Cloud Practitioner Essentials to gain foundational knowledge in cloud computing, AWS services, and best practices for deploying and managing applications in the cloud.',
+  },
   {
     institution: 'Life Choices Academy',
     degree: 'Certificate of Excellence in Full-Stack Web Development',

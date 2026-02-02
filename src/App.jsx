@@ -12,7 +12,7 @@ import Contact from './components/Contact';
 
 const App = () => {
   const [activeSection, setActiveSection] = useState('hero');
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleDarkMode = () => setIsDarkMode(prev => !prev);
 
