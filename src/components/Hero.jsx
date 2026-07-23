@@ -1,6 +1,7 @@
 import React from 'react';
 import { Zap, Download } from 'lucide-react';
 import Seo from './Seo';
+import headshot from '../assets/headshot.jpeg';
 
 const Hero = () => {
   return (
@@ -35,7 +36,7 @@ const Hero = () => {
         <div className="hero-image-area">
           <div className="hero-image-container animate-pulse-slow">
             <img
-              src="https://github.com/GeorgeZa01/Project-Screenshots/blob/main/fullbody%20shot.jpg?raw=true"
+              src={headshot}
               alt="Jemaile Mohamed Profile"
               className="hero-image"
             />
