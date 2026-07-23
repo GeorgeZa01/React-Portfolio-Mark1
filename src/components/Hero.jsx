@@ -20,7 +20,7 @@ const Hero = () => {
             Jemaile Mohamed
           </h1>
           <p className="hero-subtitle">
-            Software Developer | Life-Long Learner | Tech Enthusiast
+              IT Technician & Web Developer | Building toward Systems Administration
           </p>
           <a
             href="https://docs.google.com/document/d/15XK3oRK8nP2ncNg22rEdWn5Eb1q-aZsg/export?format=pdf"

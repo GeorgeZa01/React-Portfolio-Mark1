@@ -24,10 +24,10 @@ const About = () => {
         <SectionTitle title="About Me" />
         <div className="text-content-area text-lg">
           <p>
-            I'm <strong>Jemaile Mohamed</strong>, a full-stack web developer from Cape Town with a strong passion for technology and creativity. My journey into coding started with a fascination for how technology works—and it grew into a purpose-driven mission to create user-friendly, responsive, and problem-solving digital solutions.
+              I'm <strong>Jemaile Mohamed</strong>, a junior IT professional from Cape Town building toward a systems administrator role. I bring hands-on experience in PC and gaming console repair, diagnostics, technical support, networking fundamentals, and full-stack web development.
           </p>
           <p>
-            I've built full-stack e-commerce platforms, data dashboards, and modern business websites using JavaScript, Node.js, and MySQL. I thrive in collaborative spaces, love a good challenge, and stay committed to continuous learning and empowering others through tech.
+              Through JM dev, I support individual and small business clients with reliable technical service and end-to-end websites. I am currently pursuing CCNA and AWS Cloud Practitioner certifications while continuing to build practical skills across infrastructure, databases, deployment, and secure application development.
           </p>
 
         </div>

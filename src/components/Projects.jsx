@@ -14,34 +14,40 @@ const SectionTitle = ({ title }) => (
 
 const ProjectCard = ({ title, description, stack, liveLink, githubLink, image }) => (
   <div className="project-card">
-    <div className="project-image-wrapper">
-      <img
-        src={image}
-        alt={`Screenshot of ${title}`}
-        className="project-image"
-      />
-    </div>
+    {image && (
+      <div className="project-image-wrapper">
+        <img
+          src={image}
+          alt={`Screenshot of ${title}`}
+          className="project-image"
+        />
+      </div>
+    )}
     <div className="project-content">
       <h3 className="project-title">{title}</h3>
       <p className="project-stack">{stack}</p>
       <p className="project-description">{description}</p>
       <div className="project-links-wrapper">
-        <a
-          href={liveLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="button-link button-link-primary"
-        >
-          <Globe className="icon-mini-light" /> Live Demo
-        </a>
-        <a
-          href={githubLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="button-link button-link-secondary"
-        >
-          <Github className="icon-mini" /> Code
-        </a>
+        {liveLink && (
+          <a
+            href={liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button-link button-link-primary"
+          >
+            <Globe className="icon-mini-light" /> Live Demo
+          </a>
+        )}
+        {githubLink && (
+          <a
+            href={githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button-link button-link-secondary"
+          >
+            <Github className="icon-mini" /> Code
+          </a>
+        )}
       </div>
     </div>
   </div>

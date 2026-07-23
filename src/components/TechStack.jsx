@@ -23,7 +23,7 @@ const TechStack = () => {
       <div className="container section-max-width">
         <SectionTitle title="Tech Stack" />
         <p className="skill-intro-text">
-          Tools and technologies I use to build modern, full-stack solutions.
+           Networking, development, database, security, and deployment skills supporting my path into systems administration. CCNA and AWS Cloud Practitioner currently in progress.
         </p>
         <div className="skill-grid">
           {SKILLS.map((skill) => (
