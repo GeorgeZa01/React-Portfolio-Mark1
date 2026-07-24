@@ -18,7 +18,7 @@ import {
 import { EDUCATION_DATA, EXPERIENCE_DATA, PROJECTS, SKILLS } from './data/constants';
 import headshot from './assets/headshot.jpeg';
 
-const cvUrl = 'https://docs.google.com/document/d/15XK3oRK8nP2ncNg22rEdWn5Eb1q-aZsg/export?format=pdf';
+const cvUrl = 'https://drive.google.com/uc?export=download&id=1mhET97kFhTWuY2-sg9PdKpjRTeBw6NL6';
 const navItems = [['about', 'About'], ['experience', 'Experience'], ['projects', 'Projects'], ['contact', 'Contact']];
 
 const scrollTo = (id, closeMenu) => {

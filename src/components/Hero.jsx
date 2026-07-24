@@ -24,7 +24,7 @@ const Hero = () => {
               IT Technician & Web Developer | Building toward Systems Administration
           </p>
           <a
-            href="https://docs.google.com/document/d/15XK3oRK8nP2ncNg22rEdWn5Eb1q-aZsg/export?format=pdf"
+            href="https://drive.google.com/uc?export=download&id=1mhET97kFhTWuY2-sg9PdKpjRTeBw6NL6"
             target="_blank"
             rel="noopener noreferrer"
             className="button-base button-primary button-cv"
