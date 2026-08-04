@@ -45,6 +45,66 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
+    title: 'FaviconMagic Pro',
+    description: 'A polished favicon and branding utility project focused on asset creation and fast, user-friendly visual output.',
+    stack: 'Vercel, React, Frontend UI',
+    liveLink: 'https://favicon-by-jmdev.netlify.app/',
+    githubLink: 'https://github.com/GeorgeZa01/FaviconMagic_Pro',
+  },
+  {
+    title: 'Kairo-sKoffee',
+    description: 'A coffee brand showcase site designed to present a modern, inviting digital storefront experience.',
+    stack: 'Vercel, React, Branding, Landing Page',
+    liveLink: 'https://kairo-s-koffee.vercel.app/',
+    githubLink: 'https://github.com/GeorgeZa01/Kairo-sKoffee',
+  },
+  {
+    title: 'A-Z Maintenance',
+    description: 'A service website for a maintenance brand, built to highlight professionalism, responsiveness, and service offerings.',
+    stack: 'Vercel, Responsive Web Design, Business Site',
+    liveLink: 'https://a-z-maintanence.vercel.app/',
+  },
+  {
+    title: 'Tastes By T',
+    description: 'A branded food and hospitality website focused on visual identity, customer experience, and effective online presentation.',
+    stack: 'Vercel, Branding, Hospitality Web Design',
+    liveLink: 'https://www.tastesbyt.co.za/',
+  },
+  {
+    title: '2Guyz',
+    description: 'A modern portfolio-style landing page project combining a clean layout with easy-to-navigate presentation.',
+    stack: 'Vercel, React, Landing Page',
+    liveLink: 'https://2guyz.vercel.app/',
+  },
+  {
+    title: 'Arize Electronics E-commerce Store',
+    description: 'Developed a full-stack online store with user authentication, JWT-based admin verification, and RESTful API integration.',
+    stack: 'Node.js, Express.js, MySQL, JavaScript, JWT, REST APIs',
+    liveLink: 'https://arize-e-commerce.vercel.app/',
+    githubLink: 'https://github.com/GeorgeZa01/Arize-E-commerce',
+    image: 'https://georgeza01.github.io/Project-Screenshots/arize.png',
+  },
+  {
+    title: 'VOB Macaws',
+    description: 'A community and brand-focused website project highlighting visual storytelling and clear navigation.',
+    stack: 'Vercel, Frontend Design, Responsive UI',
+    liveLink: 'https://vob-macaws.vercel.app/',
+  },
+  {
+    title: 'CSS Space Rescue',
+    description: 'A browser game built with CSS and JavaScript mechanics, showcasing playful interaction and game design skills.',
+    stack: 'HTML, CSS, JavaScript, Game Dev',
+    liveLink: 'https://georgeza01.github.io/CSS_Space_Rescue/',
+    githubLink: 'https://github.com/GeorgeZa01/CSS_Space_Rescue',
+  },
+  {
+    title: 'Tower Block Game',
+    description: 'A small game project demonstrating logic, UI feedback, and web-based interaction design.',
+    stack: 'HTML, CSS, JavaScript, Game Dev',
+    liveLink: 'https://georgeza01.github.io/Tower-Block-Game/',
+    githubLink: 'https://github.com/GeorgeZa01/Tower-Block-Game',
+  },
+  {
     title: 'Multi-tenant CRM Platform',
     description: 'Designed a multi-tenant CRM platform for the recycling and commodity trading industry, covering data architecture and role-based access.',
     stack: 'Data Architecture, Role-based Access, CRM',
@@ -53,14 +113,6 @@ export const PROJECTS = [
     title: 'OT Enterprise Systems APEX Dashboard',
     description: 'Built an Oracle APEX web application using the OT sample schema, with four interactive reports and four visualizations to support enterprise decision-making.',
     stack: 'Oracle APEX, SQL, Data Visualization',
-  },
-  {
-    title: 'Arize Electronics E-commerce Store',
-    description: 'Developed a full-stack online store with user authentication, JWT-based admin verification, and RESTful API integration.',
-    stack: 'Node.js, Express.js, MySQL, JavaScript, JWT, REST APIs',
-    // liveLink: 'https://arize-e-commerce.vercel.app/index.html',
-    githubLink: 'https://github.com/GeorgeZa01/Arize-E-commerce',
-    image: 'https://georgeza01.github.io/Project-Screenshots/arize.png',
   },
   {
     title: 'Employee Management System',
