@@ -41,6 +41,13 @@ export const SKILLS = [
   { name: 'JWT / bcrypt', icon: FileText, cssColor: 'var(--color-nodejs)' },
   { name: 'NodeMailer', icon: MessageSquare, cssColor: 'var(--color-nodejs)' },
   { name: 'Microsoft Suite', icon: Monitor, cssColor: 'var(--color-nodejs)' },
+  { name: 'Google Suite', icon: Monitor, cssColor: 'var(--color-nodejs)' },
+  { name: 'Outlook', icon: Monitor, cssColor: 'var(--color-nodejs)' },
+  { name: 'Slack', icon: Monitor, cssColor: 'var(--color-nodejs)' },
+  { name: 'Wordpress', icon: Monitor, cssColor: 'var(--color-nodejs)' },
+  { name: 'Shopify', icon: Monitor, cssColor: 'var(--color-nodejs)' },
+  { name: 'Figma', icon: Monitor, cssColor: 'var(--color-nodejs)' },
+  
 ];
 
 export const PROJECTS = [
